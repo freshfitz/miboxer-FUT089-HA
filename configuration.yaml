@@ -1,0 +1,29 @@
+mqtt:
+  sensor:
+    - name: "Miboxer_brightness"
+      state_topic: "zigbee2mqtt/MiBoxer"
+      value_template: >
+        {% if ( value_json | regex_search('action_level') )  %}
+          {{ value_json.action_level | int }}
+        {% else %}
+          {{ this.state | int }}
+        {% endif %}
+      
+        
+    - name: "MiBoxer_ColorTemp"
+      state_topic: "zigbee2mqtt/MiBoxer"
+      value_template: >
+        {% if ( value_json | regex_search('action_color_temperature') )  %}
+          {{ value_json.action_color_temperature | int }}
+        {% else %}
+          {{ this.state | int }}
+        {% endif %}
+        
+    - name: "MiBoxer_WheelHue"
+      state_topic: "zigbee2mqtt/MiBoxer"
+      value_template: >
+        {% if ( value_json | regex_search('move_to_hue_and_saturation') )  %}
+          {{ value_json.action_hue | int }}
+        {% else %}
+          {{ this.state | int }}
+        {% endif %}
