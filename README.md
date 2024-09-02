@@ -1,4 +1,4 @@
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimmaxneo.si%2Fwp-content%2Fuploads%2F2023%2F08%2Funiversal-remote-control-miboxer-089z-zigbee-3-0-rgb-cct-tuya.jpg&f=1&nofb=1&ipt=dc0bca87792e0524f25736fc99b3f163d4d854fb8a88d9137f1b417f551d3016&ipo=images">
+<img style="width:175px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimmaxneo.si%2Fwp-content%2Fuploads%2F2023%2F08%2Funiversal-remote-control-miboxer-089z-zigbee-3-0-rgb-cct-tuya.jpg&f=1&nofb=1&ipt=dc0bca87792e0524f25736fc99b3f163d4d854fb8a88d9137f1b417f551d3016&ipo=images">
 
 # miboxer-FUT089-HA
 Add miboxer FUT089 Rgb remote to home assistant zibgee2mqtt
